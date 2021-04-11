@@ -1,26 +1,24 @@
-import { Navbar, Nav, Container, Row } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 const Layout = ({ children }) => {
   return (
-    <Container>
+    <React.Fragment>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <LinkContainer to="/home">
-          <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>Portfolio</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <LinkContainer to="/home">
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/About">
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link>Resume</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Row>{children}</Row>
-    </Container>
+      <Container style={{ marginBottom: "20px" }}>{children}</Container>
+    </React.Fragment>
   );
 };
 export default Layout;

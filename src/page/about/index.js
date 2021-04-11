@@ -1,13 +1,20 @@
-import { Col, Container, Jumbotron, Row } from "react-bootstrap";
-
+import React from "react";
+import { Col, Container, Media, Row } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 const About = () => {
   return (
-    <Container fluid="md">
-      <Jumbotron style={{ marginTop: "10px" }}>
-        <h1>Fluid jumbotron</h1>
-        <p>Kittnnannanan</p>
-      </Jumbotron>
-    </Container>
+    <React.Fragment>
+      <Container style={{ marginTop: "20px" }}>
+        <Row className="justify-content-md-center">
+          <Col xs={2}>
+            <Image
+              src="https://source.unsplash.com/user/erondu/171x180"
+              roundedCircle
+            />
+          </Col>
+        </Row>
+      </Container>
+    </React.Fragment>
   );
 };
 export default About;

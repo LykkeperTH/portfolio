@@ -7,7 +7,7 @@ import { MdWork, MdSchool, MdStar } from "react-icons/md";
 const Experience = () => {
   return (
     <Container fluid="md">
-      <Jumbotron>
+      <Jumbotron style={{ marginTop: "25px" }}>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
