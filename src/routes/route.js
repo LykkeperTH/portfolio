@@ -3,12 +3,8 @@ import { About, Home } from "../page";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/home">
-        <Home />
-      </Route>
-      <Route path="/about">
-        <About />
-      </Route>
+      <Route exact path="/home" component={Home}></Route>
+      <Route exact path="/about" component={About}></Route>
     </Switch>
   );
 };

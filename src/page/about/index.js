@@ -1,11 +1,12 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Jumbotron, Row } from "react-bootstrap";
 
 const About = () => {
   return (
     <Container fluid="md">
-      <Row>
-        <Col>1 of 1</Col>
-      </Row>
+      <Jumbotron style={{ marginTop: "10px" }}>
+        <h1>Fluid jumbotron</h1>
+        <p>Kittnnannanan</p>
+      </Jumbotron>
     </Container>
   );
 };
