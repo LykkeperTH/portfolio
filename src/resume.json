@@ -1,8 +1,8 @@
 [{
     "basics": {
-      "name": "กิตตินันท์ กำมันตะคุณ",
+      "name": "Kittinan Kammantakhun",
       "label": "Front end Developer",
-      "hightweight":"175cm / 54kgs",
+      "hightWeight":"175cm / 54kgs",
       "email": "lamptanbk@gmail.com",
       "religion":"Buddhist",
       "nationality":"Thai",
@@ -22,7 +22,7 @@
       }]
     },
     "firstWork": {
-      "company": "BigC",
+      "company": "BigC WMS",
       "position": "MIS / IT Support",
       "startDate": "16/01/2019 - Present",
       "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
@@ -31,7 +31,7 @@
       ]
     },
     "secondWork": {
-      "company": "คลังสินค้า BigC",
+      "company": "Mirt Phol",
       "position": "IT Support",
       "startDate": "16/11/2017 - 16/03/2018",
       "endDate": "Present",
@@ -48,7 +48,7 @@
       "endDate": "June 2017",
       "gpa": "2.56",
       "courses": [
-        "Computer Engineering"
+        "Bachelor of Science in Technical Education(Computer Engineering)"
       ]
     },
     "publications": {

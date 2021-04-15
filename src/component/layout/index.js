@@ -4,7 +4,13 @@ import { LinkContainer } from "react-router-bootstrap";
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        sticky="top"
+      >
         <LinkContainer to="/">
           <Navbar.Brand>Portfolio</Navbar.Brand>
         </LinkContainer>

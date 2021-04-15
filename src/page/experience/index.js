@@ -8,6 +8,7 @@ import { MdWork, MdSchool, MdStar } from "react-icons/md";
 const Experience = () => {
   return (
     <Container fluid="md">
+      <h1 style={{ justifyContent: "center", display: "flex" }}>Experience</h1>
       <Jumbotron style={{ marginTop: "25px" }}>
         {data.map((basic, index) => {
           console.log(basic);
@@ -17,7 +18,7 @@ const Experience = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{
                   background: "rgb(33, 150, 243)",
-                  color: "#fff",
+                  color: "black",
                 }}
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
@@ -27,10 +28,9 @@ const Experience = () => {
                 icon={<MdWork />}
               >
                 <h4 className="vertical-timeline-element-title">
-                  {basic.firstWork.position}
+                  {basic.firstWork.company}
                 </h4>
-
-                <p>{basic.firstWork.summary}</p>
+                <span>{basic.firstWork.position}</span>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -38,10 +38,12 @@ const Experience = () => {
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 icon={<MdWork />}
               >
-                <h3 className="vertical-timeline-element-title">
+                <h4 className="vertical-timeline-element-title">
+                  {basic.secondWork.company}
+                </h4>
+                <span className="vertical-timeline-element-title">
                   {basic.secondWork.position}
-                </h3>
-                <p>{basic.secondWork.summary}</p>
+                </span>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -53,7 +55,6 @@ const Experience = () => {
                   {basic.education.institution}
                 </h4>
                 <p>{basic.education.courses}</p>
-                <span>{basic.education.startDate}</span>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
