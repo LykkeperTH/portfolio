@@ -45,17 +45,15 @@ const Experience = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2008 - 2010"
+                date={basic.education.startDate}
                 iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
                 icon={<MdSchool />}
               >
-                <h3 className="vertical-timeline-element-title">
-                  Web Designer
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  Los Angeles, CA
+                <h4 className="vertical-timeline-element-title">
+                  {basic.education.institution}
                 </h4>
-                <p>User Experience, Visual Design</p>
+                <p>{basic.education.courses}</p>
+                <span>{basic.education.startDate}</span>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

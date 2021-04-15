@@ -2,16 +2,17 @@
     "basics": {
       "name": "กิตตินันท์ กำมันตะคุณ",
       "label": "Front end Developer",
-      "picture": "",
+      "hightweight":"175cm / 54kgs",
       "email": "lamptanbk@gmail.com",
-      "phone": "088-7247403",
+      "religion":"Buddhist",
+      "nationality":"Thai",
+      "contact": "088-7247403",
+      "dateOfBirth":"20 Junuary 1995",
+      "age":"26 years old",
       "website": "http://johndoe.com",
-      "summary": "A summary of John Doe...",
+      "summary": "Friendly,Responsible",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "12120",
-        "city": "San Francisco",
-        "countryCode": "TH",
+        "address": "130/136,Moo 3,Thanyaburi,Pathumtani 12120",
         "region": "Thailand"
       },
       "profiles": [{
@@ -21,10 +22,9 @@
       }]
     },
     "firstWork": {
-      "company": "คลังสินค้า BigC",
+      "company": "BigC",
       "position": "MIS / IT Support",
       "startDate": "16/01/2019 - Present",
-      "endDate": "Present",
       "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
       "highlights": [
         "Started the company"
@@ -41,14 +41,14 @@
       ]
     },
     "education": {
-      "institution": "มหาวิทยาลัยราชมงคลอีสาน วิทยาเขต ขอนแก่น",
+      "institution": "Rajamangala University of Technology Isan Khonkaen Campus",
       "area": "ขอนแก่น",
-      "studyType": "ปริญญาตรี",
+      "studyType": "Bachelor",
       "startDate": "March 2013 - June 2017",
       "endDate": "June 2017",
       "gpa": "2.56",
       "courses": [
-        "วิศวกรรมคอมพิวเตอร์"
+        "Computer Engineering"
       ]
     },
     "publications": {
