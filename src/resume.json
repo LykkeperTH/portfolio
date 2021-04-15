@@ -1,0 +1,85 @@
+[{
+    "basics": {
+      "name": "กิตตินันท์ กำมันตะคุณ",
+      "label": "Front end Developer",
+      "picture": "",
+      "email": "lamptanbk@gmail.com",
+      "phone": "088-7247403",
+      "website": "http://johndoe.com",
+      "summary": "A summary of John Doe...",
+      "location": {
+        "address": "2712 Broadway St",
+        "postalCode": "12120",
+        "city": "San Francisco",
+        "countryCode": "TH",
+        "region": "Thailand"
+      },
+      "profiles": [{
+        "network": "Facebook",
+        "username": "Kittinan kammnatakhun",
+        "url": "http://twitter.com/john"
+      }]
+    },
+    "firstWork": {
+      "company": "คลังสินค้า BigC",
+      "position": "MIS / IT Support",
+      "startDate": "16/01/2019 - Present",
+      "endDate": "Present",
+      "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    "secondWork": {
+      "company": "คลังสินค้า BigC",
+      "position": "IT Support",
+      "startDate": "16/11/2017 - 16/03/2018",
+      "endDate": "Present",
+      "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    "education": {
+      "institution": "มหาวิทยาลัยราชมงคลอีสาน วิทยาเขต ขอนแก่น",
+      "area": "ขอนแก่น",
+      "studyType": "ปริญญาตรี",
+      "startDate": "March 2013 - June 2017",
+      "endDate": "June 2017",
+      "gpa": "2.56",
+      "courses": [
+        "วิศวกรรมคอมพิวเตอร์"
+      ]
+    },
+    "publications": {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    },
+    "skills": {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    "languages": {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    "interests": {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },
+    "references": {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  }]
