@@ -12,8 +12,8 @@ import { StyleCard, StyleContainer, StyleProgressBar } from "./style";
 const Skill = () => {
   const percentageHtml = 90;
   const percentageCss = 80;
-  const percentagJavaScript = 85;
-  const percentaReact = 85;
+  const percentageJavaScript = 85;
+  const percentageReact = 85;
   const percentageNode = 55;
   const percentageNest = 50;
   const percentageSql = 60;
@@ -54,7 +54,7 @@ const Skill = () => {
               <Card.Text>JAVA Script</Card.Text>
               <StyleProgressBar
                 now={85}
-                label={`${percentagJavaScript}% completed`}
+                label={`${percentageJavaScript}% completed`}
               />
             </Card.Title>
           </Card.Body>
@@ -66,7 +66,7 @@ const Skill = () => {
               <Card.Text>ReactJs</Card.Text>
               <StyleProgressBar
                 now={85}
-                label={`${percentaReact}% completed`}
+                label={`${percentageReact}% completed`}
               />
             </Card.Title>
           </Card.Body>

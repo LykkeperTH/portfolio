@@ -17,7 +17,7 @@ const About = () => {
                 style={{ textAlign: "center", display: "contents" }}
               >
                 <Col>
-                  <p>Name :{about.basics.name}</p>
+                  <p>Name : {about.basics.name}</p>
                   <p>Date of birth : {about.basics.dateOfBirth}</p>
                   <p>Age : {about.basics.age}</p>
                   <p>Height / weight : {about.basics.hightWeight}</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "../../component";
 import About from "../about";
 import Experience from "../experience";
 import Skill from "../skill";
@@ -11,6 +12,7 @@ const Home = () => {
       <Skill />
       <hr></hr>
       <About />
+      <Footer />
     </React.Fragment>
   );
 };
