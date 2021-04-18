@@ -1,33 +1,21 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import Image from "react-bootstrap/Image";
+import { Col, Container } from "react-bootstrap";
 import data from "../../resume.json";
 import profile from "../../assets/profile.jpg";
+import { StyleImage, StyleRow, StyleRowContent } from "./style";
 const About = () => {
   return (
     <React.Fragment>
       <h1 style={{ justifyContent: "center", display: "flex" }}>About Me</h1>
       <Container style={{ marginTop: "20px" }}>
-        <Row
-          className="justify-content-md-center"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <Image
-            src={profile}
-            roundedCircle
-            style={{ width: "250px", height: "250px" }}
-          />
+        <StyleRow className="justify-content-md-center">
+          <StyleImage src={profile} roundedCircle />
           {data.map((about, index) => {
             return (
-              <Row
+              <StyleRowContent
                 key={index}
                 style={{ textAlign: "center", display: "contents" }}
               >
-                <Col></Col>
                 <Col>
                   <p>Name :{about.basics.name}</p>
                   <p>Date of birth : {about.basics.dateOfBirth}</p>
@@ -39,10 +27,10 @@ const About = () => {
                   <p>Email : {about.basics.email}</p>
                   <p>Contact : Tel {about.basics.contact}</p>
                 </Col>
-              </Row>
+              </StyleRowContent>
             );
           })}
-        </Row>
+        </StyleRow>
       </Container>
     </React.Fragment>
   );

@@ -16,11 +16,7 @@ const Layout = ({ children }) => {
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <LinkContainer to="/home">
-              <Nav.Link>Resume</Nav.Link>
-            </LinkContainer>
-          </Nav>
+          <Nav className="mr-auto"></Nav>
         </Navbar.Collapse>
       </Navbar>
       <Container style={{ marginBottom: "20px" }}>{children}</Container>

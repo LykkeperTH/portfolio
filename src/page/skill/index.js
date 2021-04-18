@@ -1,4 +1,4 @@
-import { Card, Container, ProgressBar } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
@@ -8,148 +8,120 @@ import nest from "../../assets/nestjs.svg";
 import sql from "../../assets/sql.svg";
 import git from "../../assets/git.svg";
 import React from "react";
+import { StyleCard, StyleContainer, StyleProgressBar } from "./style";
 const Skill = () => {
+  const percentageHtml = 90;
+  const percentageCss = 80;
+  const percentagJavaScript = 85;
+  const percentaReact = 85;
+  const percentageNode = 55;
+  const percentageNest = 50;
+  const percentageSql = 60;
+  const percentageGit = 75;
+
   return (
     <React.Fragment>
       <h1 style={{ justifyContent: "center", display: "flex" }}>Technology</h1>
-      <Container
-        fluid="md"
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          width: "100%",
-          flexWrap: "wrap",
-        }}
-      >
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+      <StyleContainer fluid="md">
+        <StyleCard>
           <Card.Img variant="bottom" src={html} />
           <Card.Body>
             <Card.Title>
               <Card.Text>HTML</Card.Text>
-              <ProgressBar now={90} />
+              <StyleProgressBar
+                now={90}
+                label={`${percentageHtml}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={css} />
           <Card.Body>
             <Card.Title>
               <Card.Text>CSS</Card.Text>
-              <ProgressBar now={80} />
+              <StyleProgressBar
+                now={80}
+                label={`${percentageCss}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={js} />
           <Card.Body>
             <Card.Title>
               <Card.Text>JAVA Script</Card.Text>
-              <ProgressBar now={90} />
+              <StyleProgressBar
+                now={85}
+                label={`${percentagJavaScript}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={react} />
           <Card.Body>
             <Card.Title>
               <Card.Text>ReactJs</Card.Text>
-              <ProgressBar now={85} />
+              <StyleProgressBar
+                now={85}
+                label={`${percentaReact}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={node} />
           <Card.Body>
             <Card.Title>
               <Card.Text>NodeJs</Card.Text>
-              <ProgressBar now={55} />
+              <StyleProgressBar
+                striped
+                now={55}
+                label={`${percentageNode}% process`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={nest} />
           <Card.Body>
             <Card.Title>
               <Card.Text>NestJs</Card.Text>
-              <ProgressBar variant="success" now={50} />
+              <StyleProgressBar
+                striped
+                now={50}
+                label={`${percentageNest}% process`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={sql} />
           <Card.Body>
             <Card.Title>
               <Card.Text>My SQL</Card.Text>
-              <ProgressBar variant="success" now={60} />
+              <StyleProgressBar
+                now={60}
+                label={`${percentageSql}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-        <Card
-          style={{
-            width: "18rem",
-            marginTop: "20px",
-            textAlign: "center",
-            border: "0px",
-          }}
-        >
+        </StyleCard>
+        <StyleCard>
           <Card.Img variant="top" src={git} />
           <Card.Body>
             <Card.Title>
               <Card.Text>GIT</Card.Text>
-              <ProgressBar variant="success" now={75} />
+              <StyleProgressBar
+                now={75}
+                label={`${percentageGit}% completed`}
+              />
             </Card.Title>
           </Card.Body>
-        </Card>
-      </Container>
+        </StyleCard>
+      </StyleContainer>
     </React.Fragment>
   );
 };

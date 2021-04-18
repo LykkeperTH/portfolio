@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <React.Fragment>
       <Experience />
+      <hr></hr>
       <Skill />
+      <hr></hr>
       <About />
     </React.Fragment>
   );

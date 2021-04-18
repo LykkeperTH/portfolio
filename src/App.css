@@ -1,4 +1,9 @@
-.App {
+@font-face {
+  font-family: 'Mitr';
+  font-weight: 400;
+  src: local('Mitr'), url(./assets/fonts/Mitr-Medium.ttf) format('truetype');
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
