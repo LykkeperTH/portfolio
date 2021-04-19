@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { scroller } from "react-scroll";
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
@@ -12,7 +11,15 @@ const Layout = ({ children }) => {
         variant="dark"
         sticky="top"
       >
-        <LinkContainer to="/">
+        <LinkContainer
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            left: "0",
+          }}
+          to="/"
+        >
           <Navbar.Brand>Portfolio</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

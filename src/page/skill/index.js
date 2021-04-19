@@ -12,7 +12,7 @@ import { StyleCard, StyleContainer, StyleProgressBar } from "./style";
 const Skill = () => {
   const percentageHtml = 90;
   const percentageCss = 80;
-  const percentageJavaScript = 85;
+  const percentageJavaScript = 75;
   const percentageReact = 85;
   const percentageNode = 55;
   const percentageNest = 50;

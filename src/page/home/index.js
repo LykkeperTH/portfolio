@@ -12,6 +12,7 @@ const Home = () => {
       <Skill />
       <hr></hr>
       <About />
+      <hr></hr>
       <Footer />
     </React.Fragment>
   );
