@@ -3,9 +3,6 @@ import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
 import react from "../../assets/reactjs.svg";
-import node from "../../assets/nodejs.svg";
-import nest from "../../assets/nestjs.svg";
-import sql from "../../assets/sql.svg";
 import git from "../../assets/git.svg";
 import React from "react";
 import { StyleCard, StyleContainer, StyleProgressBar } from "./style";
@@ -14,9 +11,6 @@ const Skill = () => {
   const percentageCss = 80;
   const percentageJavaScript = 75;
   const percentageReact = 85;
-  const percentageNode = 55;
-  const percentageNest = 50;
-  const percentageSql = 60;
   const percentageGit = 75;
 
   return (
@@ -41,7 +35,7 @@ const Skill = () => {
             <Card.Title>
               <Card.Text>CSS</Card.Text>
               <StyleProgressBar
-                now={80}
+                now={75}
                 label={`${percentageCss}% completed`}
               />
             </Card.Title>
@@ -53,7 +47,7 @@ const Skill = () => {
             <Card.Title>
               <Card.Text>JAVA Script</Card.Text>
               <StyleProgressBar
-                now={85}
+                now={70}
                 label={`${percentageJavaScript}% completed`}
               />
             </Card.Title>
@@ -67,44 +61,6 @@ const Skill = () => {
               <StyleProgressBar
                 now={85}
                 label={`${percentageReact}% completed`}
-              />
-            </Card.Title>
-          </Card.Body>
-        </StyleCard>
-        <StyleCard>
-          <Card.Img variant="top" src={node} />
-          <Card.Body>
-            <Card.Title>
-              <Card.Text>NodeJs</Card.Text>
-              <StyleProgressBar
-                striped
-                now={55}
-                label={`${percentageNode}% process`}
-              />
-            </Card.Title>
-          </Card.Body>
-        </StyleCard>
-        <StyleCard>
-          <Card.Img variant="top" src={nest} />
-          <Card.Body>
-            <Card.Title>
-              <Card.Text>NestJs</Card.Text>
-              <StyleProgressBar
-                striped
-                now={50}
-                label={`${percentageNest}% process`}
-              />
-            </Card.Title>
-          </Card.Body>
-        </StyleCard>
-        <StyleCard>
-          <Card.Img variant="top" src={sql} />
-          <Card.Body>
-            <Card.Title>
-              <Card.Text>My SQL</Card.Text>
-              <StyleProgressBar
-                now={60}
-                label={`${percentageSql}% completed`}
               />
             </Card.Title>
           </Card.Body>
