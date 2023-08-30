@@ -23,6 +23,17 @@ const Experience = () => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
+                date={basic.treeWork.startDate}
+                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                icon={<MdWork />}
+              >
+                <h4 className="vertical-timeline-element-title">
+                  {basic.treeWork.company}
+                </h4>
+                <span>{basic.treeWork.position}</span>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 date={basic.firstWork.startDate}
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 icon={<MdWork />}
@@ -30,7 +41,9 @@ const Experience = () => {
                 <h4 className="vertical-timeline-element-title">
                   {basic.firstWork.company}
                 </h4>
-                <span>{basic.firstWork.position}</span>
+                <span className="vertical-timeline-element-title">
+                  {basic.firstWork.position}
+                </span>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -45,6 +58,7 @@ const Experience = () => {
                   {basic.secondWork.position}
                 </span>
               </VerticalTimelineElement>
+
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date={basic.education.startDate}

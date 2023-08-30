@@ -24,7 +24,7 @@
     "firstWork": {
       "company": "BigC WMS",
       "position": "MIS / IT Support",
-      "startDate": "16/01/2019 - Present",
+      "startDate": "16/01/2019 - 15/03/2021",
       "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
       "highlights": [
         "Started the company"
@@ -36,6 +36,16 @@
       "startDate": "16/11/2017 - 16/03/2018",
       "endDate": "Present",
       "summary": "ดูแลระบบ Stock สินค้าของคลังซ่อมแซมบำรุงรักษาเครื่องคอมพิวเตอร์ Hardward,Softward อุปกรณ์ต่อพ่วงรวมไปถึงตรวจสอบแก้ไขระบบ Network,OS",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    "treeWork": {
+      "company": "Sabuytech",
+      "position": "Front end developer",
+      "startDate": "16/03/2021 - Present",
+      "endDate": "Present",
+      "summary": "พัฒนาเว็บไซต์ที่เป็น Production ขององค์กรโดยใช้ Reactjs,Ant design,javascript และการเชื่อมต่อกับ API",
       "highlights": [
         "Started the company"
       ]
